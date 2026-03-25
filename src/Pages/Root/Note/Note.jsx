@@ -94,7 +94,7 @@ const Note = () => {
     };
 
     return (
-        <div className="relative min-h-screen bg-[#3b0000] flex items-center justify-center overflow-hidden px-4">
+        <div className="relative min-h-screen bg-pink-400 flex items-center justify-center overflow-hidden px-4">
 
             {/* Floating Hearts */}
             {/* {[...Array(30)].map((_, i) => (
