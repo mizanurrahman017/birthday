@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -14,11 +15,11 @@ const Navbar = () => {
   return (
     <nav className="bg-pink-500 text-white shadow-lg fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
-        
+
         {/* Logo */}
-       <h1 className="text-2xl font-bold">
-  Happy Birthday, anila 🎂💖
-</h1>
+        <h1 className="text-2xl font-bold cursor-pointer">
+          <Link to="/">Happy Birthday, Asif 🎂💖</Link>
+        </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-lg font-medium">
