@@ -203,7 +203,7 @@ const Note = () => {
                 {heartUnlocked && (
                     <div className="relative w-full max-w-3xl px-8 py-12 bg-[#3b0000] border border-white/40 rounded-xl text-center text-white z-10">
                         <video
-                            src="/path-to-your-video.mp4"
+                            src="/video.mp4"
                             controls
                             className="w-full rounded-lg shadow-lg"
                         />
