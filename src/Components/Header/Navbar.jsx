@@ -7,7 +7,7 @@ import {
   FaPause,
 } from "react-icons/fa";
 import { Link } from "react-router";
-
+//  ami developer
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -163,4 +163,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
