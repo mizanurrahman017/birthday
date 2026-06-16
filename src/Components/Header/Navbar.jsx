@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router";
 //  ami developer
+//  ami developer
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
